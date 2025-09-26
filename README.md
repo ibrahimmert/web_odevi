@@ -26,7 +26,7 @@ Bu proje, İbrahim Mert BOZDOĞAN tarafından geliştirilen kişisel blog sayfas
 
  🔹 Görsel ve Video İçeriği
 - Elma görseli (harici bağlantı üzerinden)
-- Video etiketi mevcut ancak yerel dosya yolu (`C:\Users\imboz\Desktop\müzik.mp4`) kullanıldığı için tarayıcıda çalışmaz. Bu dosya bir web sunucusuna yüklenmeli veya uygun bir URL ile değiştirilmelidir.
+- müzik videosu
 
  🔹 İletişim Bölümü
 - E-posta, telefon ve adres bilgileri
