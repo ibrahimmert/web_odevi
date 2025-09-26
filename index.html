@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train of Thought - Kişisel Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #1e1e1e;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+      background-color: #121212;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 64px;
+      color: #00d4ff;
+    }
+
+    header p {
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #bbb;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #000;
+      border-top: 1px solid #333;
+      border-bottom: 1px solid #333;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      display: inline-block;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #00d4ff;
+      color: black;
+    }
+
+
+    .bolum {
+      max-width: 1000px;
+      margin: 40px auto 10px;
+      padding: 10px 20px;
+      font-size: 28px;
+      border-bottom: 2px solid #00d4ff;
+    }
+
+    .icerik {
+      max-width: 1000px;
+      margin: auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #ddd;
+    }
+
+    .icerik img {
+      max-width: 50%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .icerik video {
+      max-width: 48%;
+      border: 2px solid #00d4ff;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      background-color: #000;
+      color: #aaa;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+
+
+    @media(max-width: 768px) {
+      header h1 {
+        font-size: 42px;
+      }
+
+      nav a {
+        padding: 12px 15px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    
+    <h1>İbrahim Mert BOZDOĞAN</h1>
+  </header>
+
+  <nav>
+    <a href="#hakkimda">Hakkımda</a>
+    <a href="#iletisim">İletişim</a>
+    <a href="https://www.sdu.edu.tr/" target="_blank">Üniversite</a>
+  </nav>
+
+
+  <div id="hakkimda" class="bolum">Hakkımda</div>
+  <div class="icerik">
+    <p>Merhaba! Ben İbrahim Mert Bozdoğan.
+    Şu anda Süleyman Demirel Üniversitesi'nde bilgisayar mühendisliği okuyorum.
+     Teknolojiye olan ilgim, çocuk yaşlarda bilgisayarla tanışmamla başladı.
+      o günden beri yazılımla ilgili her alan beni heyecanlandırıyor.</p>
+      <p>sporun da her türlüsünü severim aktif olarak voleybol kulubunde oynuyorum</p>
+    <p>Isparta Eğirdirliyim.küçük bir elma bahçemiz var bahçe işleriyle de ilgileniyorum</p>
+
+  <h2 style="margin-top: 40px; margin-bottom: 30px;">Resim</h2>
+  <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_548/k%2FDesign%2F2024%2F09-2024%2Ftypes-of-apples%2FK-Types-Of-Apples_Lead" alt="Proje resmi" style="margin-bottom: 40px;">
+
+    <h3 style="margin-top: 40px;">Video</h3>
+    <video controls style="margin-top: 20px;">
+      <source src="C:\Users\imboz\Desktop\müzik.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div id="iletisim" class="bolum">İletişim</div>
+  <div class="icerik">
+    <p>İletişim bilgileri:</p>
+    <p>E-posta: <strong>ibrahim.mert@gmail.com</strong></p>
+    <p>Telefon: <strong>+90 506 098 32 55</strong></p>
+    <p>Adres: <strong>Isparta, Türkiye</strong></p>
+  </div>
+
+  <footer>
+    &copy; 2025 İbrahim Mert BOZDOĞAN | Öğrenci No: 2321032009
+  </footer>
+
+</body>
+</html>
