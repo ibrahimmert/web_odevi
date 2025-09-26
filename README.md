@@ -1,3 +1,6 @@
+
+  https://web-odevi-pi.vercel.app/
+  
   Kişisel Blog Sayfası
 
 Bu proje, İbrahim Mert BOZDOĞAN tarafından geliştirilen kişisel blog sayfasının HTML ve CSS ile hazırlanmış temel yapısını içerir. Sayfa, sade ve modern bir tasarımla kişisel bilgiler, görseller ve iletişim bilgilerini sunar.
